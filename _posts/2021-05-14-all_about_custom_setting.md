@@ -30,7 +30,7 @@ Salesforce系统提供两种Custom Settings: <br/>
 <br/>
 
 2. Hierarchy Custom Settings : <br/>
-   可以根据不同的Profile或者User来控制对于setting里面的data的可见行。其余用法和List类型的一致。
+   可以根据不同的Profile或者User来控制对于setting里面的data的可见性。其余用法和List类型的一致。
 
 
 ### Part 2: Custom Setting的调用
@@ -130,6 +130,8 @@ Map的Key是该CustomSetting的Name Field，Value就是该CustomSetting记录本
 {1033edg, 123.com, 123box, 456test}
   
 通过test_custom_setting__c.getall().Values() 获取如下数据： 
+
+```
 （ 
    test_custom_setting__c:{
                      LastModifiedDate=2021-05-14 08:58:30, 
@@ -171,6 +173,7 @@ Map的Key是该CustomSetting的Name Field，Value就是该CustomSetting记录本
                      SystemModstamp=2021-05-14 08:59:40
                     }
 ）
+```
+
 获取到Values值之后，可以方便的进行链式调用。
 
-### Part 3: 小结
