@@ -1,8 +1,8 @@
 ---
-title: LWC Note3：Finnaly it comes: LWC Quick Action
+title: LWC Series2: LWC Quick Action Release
 categories:
 - Tech 
-date: 2021-05-15
+date: 2021-05-16
 excerpt: "LWC Series 2"
 feature_image: "https://picsum.photos/id/870/600?image=872"
 ---
